@@ -1,0 +1,137 @@
+@import url("//fonts.googleapis.com/css?family=Damion");
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.single-player-menu-header{
+    height: 5%;
+    width: 250px;
+}
+
+.single-player-menu-wrapper{
+    transform: translateX(100vw);
+    transition: ease-in .5s;
+    width: 50%;
+    height: 100%;
+
+    border: none;
+    border-radius: 20px;
+    box-shadow: -5px 5px #4e001c;
+    pointer-events: all;    
+
+    font-size: 23px;
+    line-height: 90px;
+    font-family: 'Damion';
+    /* background: radial-gradient(circle, #69635c, #645e57, #58524b, #504a43); */
+    background: radial-gradient(circle, #a01f4c, #a71f4e, #9b1644, #75092f);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.single-player-menu-description{
+    margin-top: 60px;
+    width: 100%;
+    height: 100px;
+
+    line-height: 40px;
+    font-family: Damion;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.single-player-menu-difficulty{
+    width: 100%;
+    height: 100px;
+
+    line-height: 20px;
+    font-family: akz;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.single-player-menu-difficulty-title{
+    width: 100%;
+    height: 50%;
+
+    font-family: akz;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.single-player-menu-difficulty-selection-row{
+    width: 100%;
+    height: 50%;
+
+    font-family: akz;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
+.single-player-menu-difficulty-button{
+    width: 90px;
+    height: 65%;
+
+    background-color: #ffc729;
+    box-shadow: -3px 3px #b48b1e;
+    border: none;
+    border-radius: 20px;
+
+    line-height: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.single-player-menu-start-wrapper{
+    width: 100%;
+    height: 100px;
+
+    line-height: 40px;
+    font-family: akz;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-player-menu-start-button{
+  width: 250px;
+  height: 100%;
+  background-color: #8e0c3a;
+  border: none;
+  border-radius: 20px;
+  box-shadow: -5px 5px #4e001c;
+  pointer-events: all;
+  cursor: pointer;
+  
+
+  font-size: 23px;
+  line-height: 90px;
+  color: #ffc729;
+  font-family: 'Ubuntu Mono';
+  background: radial-gradient(circle, #a01f4c, #a71f4e, #9b1644, #75092f);
+}
+
+@font-face {
+    font-family: 'akz';
+    src: local('Akzidenz-grotesk'), url('../../fonts/Akzidenz-grotesk.ttf') format('truetype');
+  }  

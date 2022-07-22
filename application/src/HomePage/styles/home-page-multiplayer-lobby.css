@@ -1,0 +1,83 @@
+
+.home-page-multiplayer-lobby-wrapper{
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  transition: 500ms;
+  transform: translateY(100vh);
+}
+
+.home-page-multiplayer-lobby-players-wrapper{
+  width: auto;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-page-multiplayer-lobby-player-tag{
+  width: 160px;
+  height: 100%;
+
+  border: 2px solid #d12c66;
+  border-radius: 10px;
+
+  color: #ffc729;
+  font-size: 22px;
+  font-family: 'Pacifico';
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8e0c3a;
+  pointer-events: all;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
+.home-page-multiplayer-lobby-settings-wrapper{
+  width: auto;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-page-multiplayer-lobby-settings-difficulty{
+  width: 160px;
+  height: 100%;
+
+  border: 2px solid #d12c66;
+  border-radius: 20px;
+
+  color: #ffc729;
+  font-size: 22px;
+  font-family: 'Pacifico';
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8e0c3a;
+  pointer-events: all;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.home-page-multiplayer-lobby-settings-difficulty:focus{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}

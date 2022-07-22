@@ -1,0 +1,16 @@
+
+.home-screen-game-selection-wrapper{
+    width: auto;
+    height: auto;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+
+    pointer-events: all;
+    cursor: crosshair;
+
+    transition: ease-in 500ms;
+    transform: translateX(-100vw);
+  }

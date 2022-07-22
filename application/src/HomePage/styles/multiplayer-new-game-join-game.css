@@ -1,0 +1,124 @@
+@import url("//fonts.googleapis.com/css?family=Sriracha");
+
+.multiplayer-new-game-join-game-wrapper{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    pointer-events: all;
+    cursor: crosshair;
+
+    transition: 500ms;
+    transform: translateX(100vw);
+}
+
+.multiplayer-new-game-wrapper{
+    width: 280px;
+    height: 135px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    transition: 750ms;
+}
+
+.multiplayer-join-game-wrapper{
+    width: 280px;
+    height: 135px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 750ms;
+}
+
+
+.multiplayer-new-game-button{
+    position: relative;
+    width: 280px;
+    height: 80px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #ffc729;
+    border-radius: 20px;
+
+    cursor: pointer;
+    pointer-events: all;
+    
+    font-size: 23px;
+    line-height: 90px;
+    color: #ffc729;
+    font-family: 'Ubuntu Mono';
+    background: radial-gradient(circle, #9e1f4b, #8e0c3a, #830c35, #6e092d);
+
+}
+
+.multiplayer-join-game-button{
+    position: relative;
+    width: 280px;
+    height: 80px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #ffc729;
+    border-radius: 20px;
+  
+    cursor: pointer;
+    pointer-events: all;
+    
+    font-size: 23px;
+    line-height: 90px;
+    color: #ffc729;
+    font-family: 'Ubuntu Mono';
+    background: radial-gradient(circle, #9e1f4b, #8e0c3a, #830c35, #6e092d);
+
+    opacity: .6;
+    pointer-events: none;
+}
+
+.multiplayer-join-game-code-input{
+    width: 87%;
+    height: 40px;
+
+    border: none;
+    border-bottom: 2px solid 
+    #ffc729;
+
+    font-family: "Sriracha";
+    font-size: 35px;
+    text-align: center;
+    color: #ffc729;
+
+    background-color: rgba(0,0,0,0);
+    
+    outline:none;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffc729;
+    font-size: 22px;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 22px;
+    color: #ffc729;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 22px;
+    color: #ffc729;
+    opacity: 1 ; /* Firefox */
+  }

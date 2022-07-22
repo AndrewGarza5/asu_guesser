@@ -1,0 +1,168 @@
+
+body{
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.testing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+
+    background-color: #000000;
+    z-index: 1000;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.sidebar-wrapper{
+    width: calc(100vw - (100vh * 1.33333333));
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 5px solid #000000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-to-guess-wrapper{
+    height: 100vh;
+    width: calc(100vh * 1.33333333);
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.photo-to-guess{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1550px){
+
+    .photo-to-guess-wrapper{
+        
+        height: 100vh;
+        width: 75vw;
+        background-color: rgb(0, 0, 0);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+    .sidebar-wrapper{
+        width: 25vw;
+        height: 100vh;
+        background-color: rgb(21, 21, 21);
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-left: .5vw solid black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .photo-to-guess{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+/* @media only screen and (max-width: 1500px){
+
+    .photo-to-guess-wrapper{
+        
+        height: 80vh;
+        width: 100vw;
+        background-color: black;
+        
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar{
+        width: 1px;
+    }
+    
+    .photo-to-guess{
+        width: auto;
+        height: 100%;
+        
+    }
+} */
+
+@media only screen and (max-width: 1000px){
+
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(21, 21, 21);
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .photo-to-guess-wrapper{
+        
+        height: 80vh;
+        width: 100vw;
+        background-color: black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .sidebar-wrapper{
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(21, 21, 21);
+
+
+        border-left: 0px solid black;
+        border-top: 3px solid black;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .photo-to-guess{
+        width: 100%;
+        height: auto;
+        
+    }
+}

@@ -1,0 +1,580 @@
+@import url("//fonts.googleapis.com/css?family=Mali");
+
+.donate-actual-wrapper{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(32, 29, 29);
+}
+
+.donate-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7%;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.donate-photo-to-guess-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-photo-details{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 12px;
+
+    color: #ffc729;
+    font-size: 24px;
+    font-family: "Pacifico";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+
+    background-color: rgba(0,0,0,0.2);
+}
+
+.donate-back-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: auto;
+    padding: 12px;
+
+    color: #ffc729;
+    font-size: 24px;
+    font-family: "Pacifico";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+
+    background-color: #8c0e35;
+    border-bottom-right-radius: 20px;
+    border-right: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+
+    cursor: pointer;
+
+}
+
+.donate-paragraph-test{
+    width: 95%;
+    height: auto;
+    max-height: 60%;
+    padding: 10px;
+
+    text-align: center;
+
+    color: #ffc729;
+    font-size: 16px;
+    font-family: "Mali";
+
+    background-color: rgba(0,0,0,0.7);
+    overflow-y: auto;
+}
+
+@media only screen and (orientation: portrait){
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 120px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 15px;
+    }
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape){
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 120px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 15px;
+
+    }
+
+    .donate-paragraph{
+        width: 95%;
+        height: auto;
+        max-height: 60%;
+        padding: 10px;
+
+        text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+        overflow-y: scroll;
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px){
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 90px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 700px){
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 90px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.3);
+        padding: 10px;
+
+    }
+
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 400px){
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .donate-paragraph{
+
+        max-width: 100%;
+        max-height: 60%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 400px){
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.3);
+        padding: 10px;
+        padding: 10px;
+
+    }
+
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 30%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(255, 255, 255, 0.4);
+        overflow: scroll;
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/*****************************************/
+
+
+@media only screen and (orientation: portrait) and (max-height: 590px){
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 80px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 590px){
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 80px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px) and (max-height: 590px){
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 60px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 700px) and (max-height: 590px){
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 60px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.3);
+        padding: 10px;
+
+    }
+
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 400px) and (max-height: 590px) {
+    .donate-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .donate-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,.3);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 400px) and (max-height: 590px) {
+    .donate-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .donate-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,0.4);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+
+    .donate-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .donate-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}

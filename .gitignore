@@ -1,0 +1,16 @@
+# application
+/application/node_modules
+/application/src/secrets.json
+
+# server
+/server/node_modules
+/server/.env
+
+# misc 
+/photo_helper
+notes.txt
+IDEA.PNG
+transfer.zip
+nginx-digitalocean.PNG
+data_analysis_easy.csv
+data_analysis_master.csv

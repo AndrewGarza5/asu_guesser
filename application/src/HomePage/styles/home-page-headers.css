@@ -1,0 +1,370 @@
+  .home-screen-leaderboards-wrapper{
+    position: absolute;
+    top: 0;
+    right: 530px;
+  
+    width: 150px;
+    height: 50px;
+  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    background-color: #8e0c3a;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+    border-right: 2px solid #ffc729;
+
+    color: #ffc729;
+    font-size: 23px;
+    font-family: 'Damion';
+  
+    pointer-events: all;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    cursor: pointer;
+  }
+  
+  .home-screen-socials-wrapper{
+    position: absolute;
+    top: 0;
+    right: 350px;
+  
+    width: 150px;
+    height: 50px;
+  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    background-color: #8e0c3a;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+    border-right: 2px solid #ffc729;
+
+    color: #ffc729;
+    font-size: 20px;
+    font-family: 'Damion';
+  
+    pointer-events: all;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    cursor: pointer;
+  }
+
+  .home-screen-socials-links{
+    width: 20%;
+    height: auto;
+
+    pointer-events: all;
+
+    cursor: pointer;
+  }
+
+  .home-screen-donate-wrapper{
+    position: absolute;
+    top: 0;
+    right: 25px;
+  
+    width: 300px;
+    height: 50px;
+  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    background-color: #8e0c3a;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+    border-right: 2px solid #ffc729;
+  
+    pointer-events: all;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+  }
+  
+  .home-screen-recent-donation-wrapper{
+    width: 100%;
+    height: 70%;
+  
+    
+    color: #ffc729;
+    font-size: 22px;
+    font-family: 'Damion';
+  
+    border-bottom: 1px solid #ffc729;
+    cursor: pointer;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-screen-donate-button{
+    width: 100%;
+    height: 30%;
+  
+    text-align: center; 
+  
+    color: #ffc729;
+    font-size: 14px;
+    font-family: 'Damion';
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+
+  /* .sign-in-create-account-wrapper{
+    position: absolute;
+    top: 0;
+    right: 40px;
+  
+    width: 150px;
+    height: 65px;
+  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    background-color: #8e0c3a;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+    border-right: 2px solid #ffc729;
+  
+    pointer-events: all;
+    
+  }
+  
+  .sign-in-section{
+    width: 100%;
+    height: 50%;
+  
+    text-align: center;
+    line-height: 200%;
+    color: #ffc729;
+    font-size: 18px;
+    font-family: 'Damion';
+  
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #ffc729;
+    cursor: pointer;
+  }
+  
+  .create-account-section{
+    width: 100%;
+    height: 50%;
+  
+    text-align: center; 
+    line-height: 180%;
+  
+    color: #ffc729;
+    font-size: 18px;
+    font-family: 'Damion';
+    cursor: pointer;
+  } */
+
+  @media only screen and (max-width: 600px){
+    
+    .home-screen-donate-wrapper{
+      position: absolute;
+      top: 0;
+      right: 1%;
+    
+      width: 30%;
+      height: 50px;
+    
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    
+      background-color: #8e0c3a;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-left: 2px solid #ffc729;
+      border-bottom: 2px solid #ffc729;
+      border-right: 2px solid #ffc729;
+    
+      pointer-events: all;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .home-screen-recent-donation-wrapper{
+      width: 100%;
+      height: 70%;
+    
+      display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+    
+      border-bottom: 2px solid #ffc729;
+      cursor: pointer;
+    }
+    
+    .home-screen-donate-button{
+      width: 100%;
+      height: 50%;
+    
+      text-align: center; 
+      line-height: 200%;
+    
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+      cursor: pointer;
+    }
+
+    .home-screen-socials-wrapper{
+      position: absolute;
+      top: 0;
+      right: 35%;
+    
+      width: 100px;
+      height: 50px;
+    
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    
+      background-color: #8e0c3a;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-left: 2px solid #ffc729;
+      border-bottom: 2px solid #ffc729;
+      border-right: 2px solid #ffc729;
+  
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+    
+      pointer-events: all;
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+      cursor: pointer;
+    }
+
+    .home-screen-leaderboards-wrapper{
+      position: absolute;
+      top: 0;
+      right: 60%;
+    
+      width: 100px;
+      height: 50px;
+    
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    
+      background-color: #8e0c3a;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-left: 2px solid #ffc729;
+      border-bottom: 2px solid #ffc729;
+      border-right: 2px solid #ffc729;
+  
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+    
+      pointer-events: all;
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+      cursor: pointer;
+    }
+
+    /* .sign-in-create-account-wrapper{
+      position: absolute;
+      top: 0;
+      right: 8%;
+    
+      width: 100px;
+      height: 50px;
+    
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    
+      background-color: #8e0c3a;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      border-left: 2px solid #ffc729;
+      border-bottom: 2px solid #ffc729;
+      border-right: 2px solid #ffc729;
+    
+      pointer-events: all;
+      
+    }
+    
+    .sign-in-section{
+      width: 100%;
+      height: 50%;
+    
+      text-align: center;
+      line-height: 200%;
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+    
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom: 1px solid #ffc729;
+      cursor: pointer;
+    }
+    
+    .create-account-section{
+      width: 100%;
+      height: 50%;
+    
+      text-align: center; 
+      line-height: 180%;
+    
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Damion';
+      cursor: pointer;
+    } */
+  }

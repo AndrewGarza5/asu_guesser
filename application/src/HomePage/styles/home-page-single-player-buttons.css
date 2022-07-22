@@ -1,0 +1,266 @@
+
+
+
+
+.home-screen-single-player-buttons-wrapper{
+    width: 100%;
+    height: 330px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    transition: ease-in 400ms;
+    transform: translateX(100vw);
+  }
+
+  .home-screen-difficulty-selection-wrapper{
+    width: 500px;
+    height: 65%;
+    pointer-events: all;
+    cursor: crosshair;
+  }
+
+  
+.home-screen-difficulty-easy{
+    float: left;
+    width: 50%;
+    height: 50%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .home-screen-difficulty-medium{
+    float: right;
+    width: 50%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-screen-difficulty-hard{
+    float: left;
+    width: 50%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-screen-difficulty-impossible{
+    float: right;
+    width: 50%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-screen-difficulty-outer-circle{
+    width: 60px;
+    height: 60px;
+  
+    border-radius: 50%;
+    border: 2px solid #d12c66;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #8e0c3a;
+    pointer-events: all;
+    cursor: pointer;
+  }
+  
+  .home-screen-difficulty-circle-cover{
+    width: 100%;
+    height: 100%;
+    background-color: #8e0c3a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  
+  }
+  
+  .home-screen-difficulty-inner-circle{
+    width: 80%;
+    height: 80%;
+  
+    background-color: #3d0303;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .home-screen-difficulty-description-wrapper{
+    width: 60%;
+    height: 35%;
+  
+    margin-left: -20px;
+    border: 2px solid #d12c66;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+    color: #ffc729;
+    font-size: 22px;
+    font-family: 'Pacifico';
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e0c3a;
+    pointer-events: all;
+    cursor: pointer;
+    overflow: hidden;
+  
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+  
+  
+@media only screen and (max-width: 500px){
+    .home-screen-difficulty-selection-wrapper{
+      width: 90%;
+      height: 55%;
+      pointer-events: all;
+      cursor: crosshair;
+    }
+  
+    .home-screen-difficulty-easy{
+      float: left;
+      width: 50%;
+      height: 50%;
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    
+    .home-screen-difficulty-medium{
+      float: right;
+      width: 50%;
+      height: 50%;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .home-screen-difficulty-hard{
+      float: left;
+      width: 50%;
+      height: 50%;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .home-screen-difficulty-impossible{
+      float: right;
+      width: 50%;
+      height: 50%;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .home-screen-difficulty-outer-circle{
+      width: 50px;
+      height: 50px;
+    
+      border-radius: 50%;
+      border: 2px solid #d12c66;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      background-color: #8e0c3a;
+      pointer-events: all;
+      cursor: pointer;
+    }
+    
+    .home-screen-difficulty-circle-cover{
+      width: 100%;
+      height: 100%;
+      background-color: #8e0c3a;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    
+    }
+    
+    .home-screen-difficulty-inner-circle{
+      width: 80%;
+      height: 80%;
+    
+      background-color: #3d0303;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    }
+    
+    .home-screen-difficulty-description-wrapper{
+      width: 85px;
+      height: 30px;
+    
+      margin-left: -15px;
+      border: 2px solid #d12c66;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    
+      color: #ffc729;
+      font-size: 14px;
+      font-family: 'Pacifico';
+      
+      display: flex;
+      justify-content: center;
+      line-height: 33px;
+      background-color: #8e0c3a;
+      pointer-events: all;
+      cursor: pointer;
+      overflow: hidden;
+    
+      -webkit-user-select: none; /* Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+/Edge */
+      user-select: none; /* Standard */
+    }   
+}
+
+@media only screen and (max-width: 420px){
+    
+}

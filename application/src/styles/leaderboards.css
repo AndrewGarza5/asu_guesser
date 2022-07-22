@@ -1,0 +1,615 @@
+@import url("//fonts.googleapis.com/css?family=Mali");
+
+.leaderboards-actual-wrapper{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(32, 29, 29);
+}
+
+.leaderboards-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7%;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.leaderboards-photo-to-guess-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaderboards-photo-details{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    padding: 12px;
+
+    color: #ffc729;
+    font-size: 24px;
+    font-family: "Pacifico";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+
+    background-color: rgba(0,0,0,0.2);
+}
+
+.leaderboards-back-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: auto;
+    padding: 12px;
+
+    color: #ffc729;
+    font-size: 24px;
+    font-family: "Pacifico";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+
+    background-color: #8c0e35;
+    border-bottom-right-radius: 20px;
+    border-right: 2px solid #ffc729;
+    border-bottom: 2px solid #ffc729;
+
+    cursor: pointer;
+
+}
+
+.leaderboards-paragraph-test{
+    width: 95%;
+    height: auto;
+    max-height: 60%;
+    padding: 10px;
+
+    text-align: center;
+
+    color: #ffc729;
+    font-size: 16px;
+    font-family: "Mali";
+
+    background-color: rgba(0,0,0,0.7);
+    overflow-y: auto;
+}
+
+.leaderboards-difficulty-selection-wrapper{
+    width: 500px;
+    height: 25%;
+
+}
+
+.leaderboards-table-wrapper{
+    width: auto;
+    height: 75%;
+
+    overflow: auto;
+}
+
+@media only screen and (orientation: portrait){
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 120px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+        padding: 15px;
+    }
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape){
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 120px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 15px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: 95%;
+        height: auto;
+        max-height: 60%;
+        padding: 10px;
+
+        text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+        overflow-y: scroll;
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px){
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 90px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 700px){
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 90px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.8);
+        padding: 10px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 400px){
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .leaderboards-paragraph{
+
+        max-width: 100%;
+        max-height: 60%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 400px){
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.8);
+        padding: 10px;
+        padding: 10px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 30%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(255, 255, 255, 0.4);
+        overflow: scroll;
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/*****************************************/
+
+
+@media only screen and (orientation: portrait) and (max-height: 590px){
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 80px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 590px){
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 80px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 700px) and (max-height: 590px){
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 60px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 700px) and (max-height: 590px){
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 60px;
+        width: auto;
+        cursor: pointer;
+        background-color: rgba(0,0,0,.8);
+        padding: 10px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 400px) and (max-height: 590px) {
+    .leaderboards-photo-to-guess{
+        width: auto;
+        height: 100%;
+    }
+    .leaderboards-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 400px) and (max-height: 590px) {
+    .leaderboards-images-wrapper{
+        width: 100%;
+        height: 20%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .leaderboards-image-link{
+        height: 50px;
+        width: auto;
+        background-color: rgba(0,0,0,0.4);
+        cursor: pointer;
+        padding: 10px;
+
+    }
+
+    .leaderboards-paragraph{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        padding: 10px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;text-align: center;
+
+        color: #ffc729;
+        font-size: 16px;
+        font-family: "Mali";
+
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .leaderboards-photo-to-guess{
+        width: 100%;
+        height: auto;
+    }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    visibility: hidden;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

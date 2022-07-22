@@ -1,0 +1,43 @@
+.view-summary-stats-wrapper{
+    position: relative;
+    width: 320px;
+    height: 100px;
+
+    min-height: 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #ffc729;
+    border-radius: 20px;
+    
+    cursor: pointer;
+    
+    font-size: 35px;
+    color: #ffc729;
+    font-family: 'Pacifico';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle, #9e1f4b, #8e0c3a, #830c35, #6e092d);
+    transition: ease-in 500ms;
+    z-index: 300;
+    pointer-events: all;
+
+    overflow: auto;
+
+    transition: ease-in 500ms;
+}
+
+.summary-stats-you-placed-description{
+    width: 100%;
+    height: 20%;
+
+    color: #ffc729;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

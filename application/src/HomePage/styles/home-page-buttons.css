@@ -1,0 +1,82 @@
+.home-screen-game-start-button{
+  position: relative;
+  width: 320px;
+  height: 85px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid #ffc729;
+  border-radius: 20px;
+
+  cursor: pointer;
+  pointer-events: all;
+  
+  font-size: 23px;
+  line-height: 90px;
+  color: #ffc729;
+  font-family: 'Ubuntu Mono';
+  background: radial-gradient(circle, #9e1f4b, #8e0c3a, #830c35, #6e092d);
+  
+  transition: ease-in 200ms;
+  transform: translateX(0vw);
+
+}
+
+.home-page-back-button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 75px;
+    padding: 0px;
+
+    color: #ffc729;
+    font-size: 24px;
+    font-family: "Pacifico";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+
+    background-color: #8c0e35;
+    border-top-right-radius: 20px;
+    border-right: 2px solid #ffc729;
+    border-top: 2px solid #ffc729;
+
+    cursor: pointer;
+    pointer-events: all;
+
+    transition: 500ms;
+    transform: translateY(300px);
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+@media only screen and (max-width: 420px){
+  .home-screen-game-start-button{
+    position: relative;
+    width: 270px;
+    height: 70px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #ffc729;
+    border-radius: 20px;
+  
+    cursor: pointer;
+    
+    font-size: 23px;
+    line-height: 90px;
+    color: #ffc729;
+    font-family: 'Ubuntu Mono';
+    background: radial-gradient(circle, #9e1f4b, #8e0c3a, #830c35, #6e092d);
+    transition: ease-in 200ms;
+    transform: translateX(0vw);
+
+  }
+}
